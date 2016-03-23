@@ -1,0 +1,5 @@
+DMP:
+  latex:
+    template: styles/pdf-template.tex
+    commandline:
+      latex-engine: "`xelatex`"
