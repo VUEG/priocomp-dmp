@@ -1,4 +1,4 @@
-\documentclass{book}
+\documentclass{article}
 
 
 % Fonts and typography
@@ -33,11 +33,6 @@
 %% Disable paragraph indentation
 \usepackage{parskip}
 
-%% Start sections from new page
-\let\stdsection\section
-\renewcommand\section{\newpage\stdsection}
-
-
 % Colors
 
 \usepackage{xcolor}
@@ -54,40 +49,6 @@
 \definecolor{Aluminium6}{HTML}{2e3436}
 
 \definecolor{Black}{HTML}{000000}
-
-
-% Listings
-\usepackage{upquote}
-
-\usepackage{listings}
-
-\lstdefinelanguage{JavaScript}{
-  keywords = {typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
-  keywordstyle = \color{SkyBlue}\bfseries,
-  ndkeywords = {class, export, boolean, throw, implements, import, this},
-  ndkeywordstyle = \color{Aluminium6}\bfseries,
-  identifierstyle = \color{Black},
-  sensitive = false,
-  comment = [l]{//},
-  morecomment = [s]{/*}{*/},
-  commentstyle = \color{Plum}\ttfamily,
-  stringstyle = \color{ScarletRed}\ttfamily,
-  morestring = [b]',
-  morestring = [b]"
-}
-
-\lstset{
-  language = JavaScript,
-  backgroundcolor = \color{Aluminium1},
-  extendedchars = true,
-  basicstyle = \normalsize\ttfamily,
-  showstringspaces = false,
-  showspaces = false,
-  tabsize = 1,
-  breaklines = true,
-  showtabs = false
-}
-
 
 % Links
 
@@ -122,7 +83,7 @@
 \begin{document}
 
 
-  % Book contents
+  % Contents
 
   $body$
 
