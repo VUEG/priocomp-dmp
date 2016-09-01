@@ -4,7 +4,7 @@ style: DMP
 
 # Data management plan:
 
-Author: Joona Lehtomäki <j.lehtomaki@vu.nl>  
+Author: Joona Lehtomäki <<j.lehtomaki@vu.nl>>  
 Version: 0.1  
 Upated: 2016-03-23  
 
